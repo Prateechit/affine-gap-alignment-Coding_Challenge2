@@ -1,9 +1,9 @@
 Affine Gap Global Sequence Alignment Tool
-
+-
 This project implements a global nucleotide sequence alignment tool using the Needleman–Wunsch algorithm with affine gap penalties. The program aligns two DNA sequences provided in FASTA format and computes the optimal global alignment using user-defined scoring parameters.
 
 Overview:
-
+-
 The tool performs global alignment between two nucleotide sequences by applying an affine gap penalty model. Unlike simple linear gap penalties, affine gap scoring differentiates between opening a gap and extending an existing gap. This approach more accurately represents biological insertions and deletions.
 
 Features:
@@ -25,6 +25,7 @@ Custom scoring parameters provided by the user
 Outputs aligned sequences and final alignment score
 
 Works for sequences of any length
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Input
 
@@ -41,6 +42,7 @@ The program requires:
 -- Gap opening penalty
 
 -- Gap extension penalty
+
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 How to Run
 
@@ -58,8 +60,9 @@ Mismatch penalty = -1
 Gap opening penalty = -5
 Gap extension penalty = -1
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 Output
-
+--
 The program prints:
 
 The best global alignment
