@@ -112,18 +112,16 @@ Where n and m are the lengths of the two sequences.
 Project Structure
 -
 affine_align.py – main alignment script
+
 seq1.fasta – first input sequence
+
 seq2.fasta – second input sequence
+
 output.txt – saved alignment result
+
 README – project documentation
 
 -------------------------------------------------------------------------------------
 Applications
 
-Comparative genomics
-
-Mutation analysis
-
-Sequence similarity studies
-
-Bioinformatics algorithm implementation
+Comparative genomics, Mutation analysis, Sequence similarity studies, Bioinformatics algorithm implementation
