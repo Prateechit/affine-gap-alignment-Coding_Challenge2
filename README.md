@@ -28,7 +28,7 @@ Works for sequences of any length
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Input
-
+-
 The program requires:
 
 1. Two FASTA files containing nucleotide sequences
@@ -62,7 +62,7 @@ Gap extension penalty = -1
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 Output
---
+-
 The program prints:
 
 The best global alignment
@@ -78,6 +78,7 @@ Aligned Sequence 2
 
 Final Alignment Score: 176
 
+-----------------------------------------------------------------------------------------------------------------
 Algorithm Description
 
 This tool implements the Needleman–Wunsch global alignment algorithm using an affine gap penalty model.
@@ -99,6 +100,7 @@ Iy stores scores when there is a gap in sequence 2
 
 This ensures that long gaps are penalized realistically by charging a higher cost for opening a gap and a smaller cost for extending it.
 
+------------------------------------------------------------------------------------------------------------------------------------------
 Time and Space Complexity
 
 Time Complexity: O(nm)
@@ -106,14 +108,16 @@ Space Complexity: O(nm)
 
 Where n and m are the lengths of the two sequences.
 
+------------------------------------------------------------------------------------------------------------
 Project Structure
-
+-
 affine_align.py – main alignment script
-seq1_100bp.fasta – first input sequence
-seq2_100bp.fasta – second input sequence
-alignment_output.aln – saved alignment result
+seq1.fasta – first input sequence
+seq2.fasta – second input sequence
+output.txt – saved alignment result
 README – project documentation
 
+-------------------------------------------------------------------------------------
 Applications
 
 Comparative genomics
